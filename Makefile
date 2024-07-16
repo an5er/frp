@@ -8,6 +8,7 @@ build: frps frpc
 
 env:
 	@go version
+	git config --list
 
 # compile assets into binary file
 file:
